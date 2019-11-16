@@ -19,13 +19,18 @@ from tg_bot.modules.helper_funcs.misc import paginate_modules
 
 PM_START_TEXT = """
 
-ഹായ് {}, എന്റെ പേര് {}! ഞാൻ [ഇദ്ദേഹം](tg://user?id={}) നോക്കി നടത്തുന്ന ഒരു അടിപൊളി അഡ്മിൻ ബോട്ടാണ്.
+OFFICIAL ZMOVIES GROUP MANAGEING BOT 
+join all of our channels
 
-എന്നെ നിർമ്മിച്ചിരിക്കുന്നത് python3 യിൽ python-telegram-bot ലൈബ്രറി ഉപയോഗിച്ചാണ്. ഞാൻ പൂർണ്ണമായിട്ടും ഓപ്പൺസോഴ്സ്ഡ് ആണ്. എന്റെ കോഡ് നിങ്ങൾക്ക് [ഇവിടെ](https://github.com/jithumon/tgbot) കാണുവാൻ സാധിക്കും.
+🖤 @HOLLYWOODKANIBEL 🖤
+🧿 @ZMOVIESSTREAM 🧿
+🧡 @ZMOVIES400MB 🧡
+💙 @MOVIEROCKERS10 💙
+💜 @TR_TORRENTS💜
+❤️ @ZMOVIESOFFICIAL❤️
 
-എന്റെ അപ്ഡേറ്റുകളെക്കുറിച്ചും പ്രവർത്തനത്തെപറ്റിയും അറിയുവാൻ [ഈ ചാനൽ](t.me/kochu_updates) സബ്സ്ക്രൈബ് ചെയ്യാൻ മറക്കേണ്ട.
 
-ലഭ്യമായ കമാന്റുകളെപ്പറ്റി അറിയുവാൻ /help അമർത്തുക.
+
 
 """
 
@@ -145,8 +150,8 @@ def start(bot: Bot, update: Update, args: List[str]):
             update.effective_message.reply_text(
                 PM_START_TEXT.format(escape_markdown(first_name), escape_markdown(bot.first_name), OWNER_ID),
 
-                parse_mode=ParseMode.MARKDOWN, reply_markup=InlineKeyboardMarkup([[InlineKeyboardButton(text="Add me to group",
-                                                                       url="t.me/{}?startgroup=true".format(bot.username))]]))
+                parse_mode=ParseMode.MARKDOWN, reply_markup=InlineKeyboardMarkup([[InlineKeyboardButton(text="🔰🔰🆉мσ🆅🅸є🆂🔰🔰",
+                                                                       url="https://t.me/joinchat/AAAAAEoI9qHQDl54X6hrnA".format(bot.username))]]))
     else:
         update.effective_message.reply_text("ചത്തിട്ടില്ലാ...")
 
