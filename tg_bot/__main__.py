@@ -30,7 +30,7 @@ hit help for commands /help..
 
 Using standard [Marie](http://telegram.dog/BanhammerMarie_bot) is always gonna be easier.
 Perks:
-- latest features
+- latest featuresh
 - it's free
 - biggest list of users for any /info commands
 - the database will always be correctly formatted
