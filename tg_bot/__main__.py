@@ -40,7 +40,8 @@ Also, no support can be given for any [clones like this](https://telegram.dog/Mi
 **Keep in mind that any changes you DO do to the source have to be on github, as per the license.**
 
 """
-
+parse_mode=ParseMode.MARKDOWN, reply_markup=InlineKeyboardMarkup([[InlineKeyboardButton(text="Add me to group",
+                                                                       url="t.me/{}?startgroup=true".format(bot.username))]]))
 HELP_STRINGS = """
 
 Hello! my name *{}*.
